@@ -9,13 +9,13 @@ This project demonstrates a simple DevOps workflow involving infrastructure prov
 # Architecture
 
 User
-↓
+->
 EC2 Public IP
-↓
+->
 Docker Container
-↓
+->
 Flask API
-↓
+->
 Random Response
 
 Infrastructure is provisioned using **Terraform**, and the application is packaged and deployed using **Docker**.
